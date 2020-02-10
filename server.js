@@ -9,8 +9,8 @@ const path = require("path")
 require('dotenv').config();
 
 const mg_neuro = mailgun ({
-    apiKey: process.env.neuro_api_key,
-    domain: process.env.neuro_domain
+    apiKey: process.env.api_key,
+    domain: process.env.domain
 })
 
 
