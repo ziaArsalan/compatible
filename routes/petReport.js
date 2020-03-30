@@ -11,7 +11,7 @@ const mg = mailgun ({
 module.exports = async (req, res) => {
     // jkendall2011@hotmail.com
     // var emails = ['mm@isystematic.com']
-    var emails = ['mm@isystematic.com', 'salmankhan@isystematic.com', 'ak@isystematic.com']
+    var emails = ['mm@isystematic.com', 'salmankhan@isystematic.com', 'ak@isystematic.com', 'jkendall2011@hotmail.com']
     req.body.date = new Date().toDateString()
     req.body.mailTo = 'mm@isystematic.com'
     var errorMail = [];

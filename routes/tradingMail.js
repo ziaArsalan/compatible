@@ -25,7 +25,7 @@ module.exports = async (req, res) => {
 
         const mailData = {
             from:   from,
-            to:     requestData.to,
+            to:     requestData.buyer_email,
             subject:'Pet Purchased',
             html:   emailBody,
         }
